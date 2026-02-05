@@ -1,264 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manik Hilalpure - Portfolio</title>
-    <meta name="description" content="Personal portfolio of Manik Hilalpure - Full Stack Developer">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Personal portfolio of Manik Hilalpure - Full Stack Developer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="calculator.js"></script>
+  </head>
+  <body>
     <header>
-        <div class="container header-container">
-            <div class="header-text">
-                <h1>Manik Hilalpure</h1>
-                <p class="subtitle">Full Stack Developer | Machine Learning Enthusiast | Competitive Programmer</p>
-                <div class="contact-buttons">
-                    <a href="#contact" class="btn">Get In Touch</a>
-                    <a href="Manik_Hilalpure_Resume.pdf" class="btn secondary" target="_blank">Download Resume</a>
-                </div>
-            </div>
-            <div class="header-image">
-                <div class="image-wrapper">
-                    <img src="profile-image.jpg" style="object-fit: cover;" alt="Profile photo of Manik Hilalpure">
-                    <div class="image-overlay"></div>
-                </div>
-            </div>
+      <div class="container header-container">
+        <div class="header-text">
+          <h1>Manik Hilalpure</h1>
+          <p class="subtitle">
+            Full Stack Developer | Machine Learning Enthusiast | Competitive
+            Programmer
+          </p>
+          <div class="contact-buttons">
+            <a href="#contact" class="btn">Get In Touch</a>
+            <a
+              href="Manik_Hilalpure_Resume.pdf"
+              class="btn secondary"
+              target="_blank"
+              >Download Resume</a
+            >
+          </div>
         </div>
+        <div class="header-image">
+          <div class="image-wrapper">
+            <img
+              src="profile-image.jpg"
+              style="object-fit: cover"
+              alt="Profile photo of Manik Hilalpure"
+            />
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="container">
-        <section id="bio" class="section">
-            <h2 class="section-title">About Me</h2>
-            <div class="card">
-                <p>I'm a Computer Science student passionate about web development, machine learning, and building scalable solutions. I have experience in full-stack development with ReactJS and Django, and I enjoy participating in hackathons and coding competitions.</p>
-            </div>
-        </section>
+      <section id="bio" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="card">
+          <p>
+            I'm a Computer Science student passionate about web development,
+            machine learning, and building scalable solutions. I have experience
+            in full-stack development with ReactJS and Django, and I enjoy
+            participating in hackathons and coding competitions.
+          </p>
+        </div>
+      </section>
 
-        <section id="education" class="section">
-            <h2 class="section-title">Education</h2>
-            <div class="card">
-                <ul class="timeline">
-                    <li>
-                        <h3>BTech in Computer Science</h3>
-                        <p class="institution">MITE, Mangalore</p>
-                        <p class="duration">CGPA: 7.65</p>
-                    </li>
-                    <li>
-                        <h3>Pre-University</h3>
-                        <p class="institution">SPUC, Udupi</p>
-                        <p class="duration">Percentage: 80.3%</p>
-                    </li>
-                    <li>
-                        <h3>10th Grade (ICSE)</h3>
-                        <p class="institution">SRS, Udupi</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="card">
+          <ul class="timeline">
+            <li>
+              <h3>BTech in Computer Science</h3>
+              <p class="institution">MITE, Mangalore</p>
+              <p class="duration">CGPA: 7.65</p>
+            </li>
+            <li>
+              <h3>Pre-University</h3>
+              <p class="institution">SPUC, Udupi</p>
+              <p class="duration">Percentage: 80.3%</p>
+            </li>
+            <li>
+              <h3>10th Grade (ICSE)</h3>
+              <p class="institution">SRS, Udupi</p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="skills" class="section">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category card">
-                    <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
-                    <ul class="skill-list">
-                        <li>ReactJS</li>
-                        <li>Tailwind CSS</li>
-                        <li>GraphJS</li>
-                        <li>GSAP</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category card">
-                    <h3><i class="fas fa-server"></i> Backend</h3>
-                    <ul class="skill-list">
-                        <li>Django</li>
-                        <li>Flask</li>
-                        <li>NodeJS</li>
-                        <li>SQLite</li>
-                        <li>REST APIs</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category card">
-                    <h3><i class="fas fa-code"></i> Languages</h3>
-                    <ul class="skill-list">
-                        <li>Java</li>
-                        <li>C</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category card">
-                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
-                    <ul class="skill-list">
-                        <li>Git, GitHub</li>
-                        <li>Figma, Postman, Vercel</li>
-                        <li>OpenCV, NumPy, Pandas</li>
-                        <li>Scikit-learn, Matplotlib</li>
-                        <li>Web Scraping</li>
-                        <li>Machine Learning</li>
-                        <li>Automation</li>
-                        <li>Data Structures and Algorithms</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+      <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category card">
+            <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
+            <ul class="skill-list">
+              <li>ReactJS</li>
+              <li>Tailwind CSS</li>
+              <li>GraphJS</li>
+              <li>GSAP</li>
+            </ul>
+          </div>
 
-        <section id="achievements" class="section">
-            <h2 class="section-title">Notable Achievements</h2>
-            <div class="card">
-                <ul class="achievements-list">
-                    <li>
-                        <i class="fas fa-trophy"></i>
-                        <span>First runner-up at HackToFuture national hackathon (36-hour event)</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-medal"></i>
-                        <span>Rank 5/708 in Front-End Battle '24 by IIT Bhubaneshwar</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-award"></i>
-                        <span>Advanced to Grand Finale of Smart India Hackathon 2024 at IIT Kharagpur</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-star"></i>
-                        <span>Multiple competition wins: Code Crest (1st), Web Dash (1st & 2nd), CODE RELAY (2nd), CSS Battle (1st)</span>
-                    </li>
-                </ul>
-            </div>
-        </section>
+          <div class="skill-category card">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <ul class="skill-list">
+              <li>Django</li>
+              <li>Flask</li>
+              <li>NodeJS</li>
+              <li>SQLite</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
 
-        <section id="projects" class="section">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <article class="project-card card">
-                    <h3>AgroPOS: Agricultural POS and Inventory Management System</h3>
-                    <div class="tech-tags">
-                        <span class="tag">Django</span>
-                        <span class="tag">ReactJS</span>
-                        <span class="tag">Tailwind CSS</span>
-                        <span class="tag">SQLite</span>
-                    </div>
-                    <p>A POS system with real-time stock tracking, automated invoicing, and multi-payment support. Built interactive analytics graphs for sales trends. Improved operational efficiency by 40% and reduced stock outs by 25%.</p>
-                </article>
+          <div class="skill-category card">
+            <h3><i class="fas fa-code"></i> Languages</h3>
+            <ul class="skill-list">
+              <li>Java</li>
+              <li>C</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
 
-                <article class="project-card card">
-                    <h3>Secure and Scalable API Gateway</h3>
-                    <div class="tech-tags">
-                        <span class="tag">Node.js</span>
-                        <span class="tag">TypeScript</span>
-                        <span class="tag">MySQL</span>
-                        <span class="tag">Redis</span>
-                        <span class="tag">Docker</span>
-                    </div>
-                    <p>Designed and developed a secure API gateway with API key authentication, rate limiting using Redis, request analytics, and logging. Containerized with Docker for easy deployment and scalability.</p>
-                </article>
-            </div>
-        </section>
+          <div class="skill-category card">
+            <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+            <ul class="skill-list">
+              <li>Git, GitHub</li>
+              <li>Figma, Postman, Vercel</li>
+              <li>OpenCV, NumPy, Pandas</li>
+              <li>Scikit-learn, Matplotlib</li>
+              <li>Web Scraping</li>
+              <li>Machine Learning</li>
+              <li>Automation</li>
+              <li>Data Structures and Algorithms</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-        <section id="courses" class="section">
-            <h2 class="section-title">Courses Completed</h2>
-            <div class="card">
-                <ul class="courses-list">
-                    <li><i class="fas fa-check-circle"></i> React The Complete Guide 2024 (incl Next.js, Redux)</li>
-                    <li><i class="fas fa-check-circle"></i> 100 Days of Code: The Complete Python Pro Bootcamp</li>
-                    <li><i class="fas fa-check-circle"></i> Ultimate Git Mastery by Mosh Hamedani</li>
-                    <li><i class="fas fa-check-circle"></i> Complete Machine Learning & Data Science Bootcamp 2023</li>
-                    <li><i class="fas fa-check-circle"></i> Python Django - The Practical Guide</li>
-                </ul>
-            </div>
-        </section>
+      <section id="achievements" class="section">
+        <h2 class="section-title">Notable Achievements</h2>
+        <div class="card">
+          <ul class="achievements-list">
+            <li>
+              <i class="fas fa-trophy"></i>
+              <span
+                >First runner-up at HackToFuture national hackathon (36-hour
+                event)</span
+              >
+            </li>
+            <li>
+              <i class="fas fa-medal"></i>
+              <span
+                >Rank 5/708 in Front-End Battle '24 by IIT Bhubaneshwar</span
+              >
+            </li>
+            <li>
+              <i class="fas fa-award"></i>
+              <span
+                >Advanced to Grand Finale of Smart India Hackathon 2024 at IIT
+                Kharagpur</span
+              >
+            </li>
+            <li>
+              <i class="fas fa-star"></i>
+              <span
+                >Multiple competition wins: Code Crest (1st), Web Dash (1st &
+                2nd), CODE RELAY (2nd), CSS Battle (1st)</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="leadership" class="section">
-            <h2 class="section-title">Leadership & Positions</h2>
-            <div class="card">
-                <ul class="leadership-list">
-                    <li>
-                        <h3>President, Dev Studio [MITE] (2025-2026)</h3>
-                        <p>Led community of students in learning full-stack development</p>
-                    </li>
-                    <li>
-                        <h3>Vice President, [CORE - MITE] (2024-2025)</h3>
-                        <p>Coordinated college festivals and cultural events</p>
-                    </li>
-                    <li>
-                        <h3>Class Representative (SEM: 2, CSE-MITE, 2023)</h3>
-                    </li>
-                </ul>
+      <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card card">
+            <h3>AgroPOS: Agricultural POS and Inventory Management System</h3>
+            <div class="tech-tags">
+              <span class="tag">Django</span>
+              <span class="tag">ReactJS</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">SQLite</span>
             </div>
-        </section>
+            <p>
+              A POS system with real-time stock tracking, automated invoicing,
+              and multi-payment support. Built interactive analytics graphs for
+              sales trends. Improved operational efficiency by 40% and reduced
+              stock outs by 25%.
+            </p>
+          </article>
 
-        <section id="hobbies" class="section">
-            <h2 class="section-title">Hobbies & Other Skills</h2>
-            <div class="card">
-                <div class="hobbies-grid">
-                    <div class="hobby-item">
-                        <i class="fas fa-keyboard"></i>
-                        <h3>Fast Typist</h3>
-                        <p>Proficient in typing using Dvorak keyboard layout (top speed: 126 WPM)</p>
-                    </div>
-                    <div class="hobby-item">
-                        <i class="fas fa-dumbbell"></i>
-                        <h3>Calisthenics/Yoga</h3>
-                        <p>Intermediate Calisthenics/Yoga athlete</p>
-                    </div>
-                </div>
+          <article class="project-card card">
+            <h3>Secure and Scalable API Gateway</h3>
+            <div class="tech-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Redis</span>
+              <span class="tag">Docker</span>
             </div>
-        </section>
+            <p>
+              Designed and developed a secure API gateway with API key
+              authentication, rate limiting using Redis, request analytics, and
+              logging. Containerized with Docker for easy deployment and
+              scalability.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="courses" class="section">
+        <h2 class="section-title">Courses Completed</h2>
+        <div class="card">
+          <ul class="courses-list">
+            <li>
+              <i class="fas fa-check-circle"></i> React The Complete Guide 2024
+              (incl Next.js, Redux)
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> 100 Days of Code: The Complete
+              Python Pro Bootcamp
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Ultimate Git Mastery by Mosh
+              Hamedani
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Complete Machine Learning &
+              Data Science Bootcamp 2023
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Python Django - The Practical
+              Guide
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="leadership" class="section">
+        <h2 class="section-title">Leadership & Positions</h2>
+        <div class="card">
+          <ul class="leadership-list">
+            <li>
+              <h3>President, Dev Studio [MITE] (2025-2026)</h3>
+              <p>
+                Led community of students in learning full-stack development
+              </p>
+            </li>
+            <li>
+              <h3>Vice President, [CORE - MITE] (2024-2025)</h3>
+              <p>Coordinated college festivals and cultural events</p>
+            </li>
+            <li>
+              <h3>Class Representative (SEM: 2, CSE-MITE, 2023)</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="hobbies" class="section">
+        <h2 class="section-title">Hobbies & Other Skills</h2>
+        <div class="card">
+          <div class="hobbies-grid">
+            <div class="hobby-item">
+              <i class="fas fa-keyboard"></i>
+              <h3>Fast Typist</h3>
+              <p>
+                Proficient in typing using Dvorak keyboard layout (top speed:
+                126 WPM)
+              </p>
+            </div>
+            <div class="hobby-item">
+              <i class="fas fa-dumbbell"></i>
+              <h3>Calisthenics/Yoga</h3>
+              <p>Intermediate Calisthenics/Yoga athlete</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="calculator">
+        <h2 class="section-title">Simple Calculator</h2>
+        <div id="calc">
+          <div id="screen">0</div>
+          <div id="buttons">
+            <button onclick="c('C')">C</button>
+            <button onclick="c('/')">/</button>
+            <button onclick="c('*')">*</button>
+            <button onclick="c('-')">-</button>
+
+            <button onclick="c('7')">7</button>
+            <button onclick="c('8')">8</button>
+            <button onclick="c('9')">9</button>
+            <button onclick="c('+')" style="grid-row: span 2">+</button>
+
+            <button onclick="c('4')">4</button>
+            <button onclick="c('5')">5</button>
+            <button onclick="c('6')">6</button>
+
+            <button onclick="c('1')">1</button>
+            <button onclick="c('2')">2</button>
+            <button onclick="c('3')">3</button>
+            <button onclick="c('=')" style="grid-row: span 2">=</button>
+
+            <button onclick="c('0')" style="grid-column: span 2">0</button>
+            <button onclick="c('.')">.</button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer id="contact">
-        <div class="container">
-            <h2 class="section-title">Contact Information</h2>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <address>
-                        <ul>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                                <a href="mailto:manik.hilalpure@gmail.com">manik.hilalpure@gmail.com</a>
-                            </li>
-                            <li>
-                                <i class="fas fa-code"></i>
-                                <a href="https://leetcode.com/itsmanik" target="_blank">leetcode.com/itsmanik</a>
-                            </li>
-                            <li>
-                                <i class="fab fa-linkedin"></i>
-                                <a href="https://linkedin.com/in/manik-hilalpure" target="_blank">linkedin.com/in/manik-hilalpure</a>
-                            </li>
-                        </ul>
-                    </address>
-                </div>
-                <div class="copyright">
-                    <p>© 2026 Manik Hilalpure. All rights reserved.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Contact Information</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <address>
+              <ul>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:manik.hilalpure@gmail.com"
+                    >manik.hilalpure@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-code"></i>
+                  <a href="https://leetcode.com/itsmanik" target="_blank"
+                    >leetcode.com/itsmanik</a
+                  >
+                </li>
+                <li>
+                  <i class="fab fa-linkedin"></i>
+                  <a
+                    href="https://linkedin.com/in/manik-hilalpure"
+                    target="_blank"
+                    >linkedin.com/in/manik-hilalpure</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="copyright">
+            <p>© 2026 Manik Hilalpure. All rights reserved.</p>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if(targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if(targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                }
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: "smooth",
             });
+          }
         });
+      });
     </script>
-</body>
+  </body>
 </html>

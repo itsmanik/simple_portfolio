@@ -493,3 +493,46 @@ footer .section-title {
         font-size: 0.9rem;
     }
 }
+
+#calc {
+  max-width: 300px;
+  margin: auto;
+  background: #2c3e50;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#screen {
+  background: #1a252f;
+  color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 24px;
+  min-height: 30px;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+#buttons button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background: #34495e;
+  color: white;
+}
+
+#buttons button:hover {
+  background: #3d566e;
+}
+
+#buttons button:nth-child(1) {
+  background: #e74c3c;
+}
